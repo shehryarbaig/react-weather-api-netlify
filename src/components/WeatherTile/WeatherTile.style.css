@@ -1,0 +1,12 @@
+.weatherTileContainer{
+    text-align: center;
+}
+
+.custom-h6{
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}

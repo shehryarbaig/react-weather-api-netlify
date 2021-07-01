@@ -1,0 +1,66 @@
+.weatherCardContainer{
+    width: fit-content;
+}
+
+.weatherCardHeaderText{
+    margin: 0px;
+    padding: 4px;
+    color: grey;
+    font-weight: 400;
+}
+
+.currentWeatherContainer {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    margin-bottom: 10px;
+  }
+
+  .temperatureSection{
+    display: grid;
+    grid-template-columns: 20% 0.36fr 0.7fr ;
+  }
+
+  .temperatureForcastContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  }
+
+  .avatar{
+    color: transparent;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    text-align: center;
+  }
+  
+  .custom-h3 {
+    
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    font-size: 45px;
+}
+
+.degrees-h4{
+    margin: 0px;
+    font-weight: 400;
+    color: grey;
+    font-size: 27px;
+}
+
+.detailSection{
+}
+
+.temperatureDetails
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
